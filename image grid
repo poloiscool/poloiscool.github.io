@@ -1,0 +1,30 @@
+ <!-->
+  <div class="image-grid">
+    <img src="images/blank.jpg" alt="Image 1">
+    <img src="images/Artboard 1 copy 2.png" alt="Image 2">
+    <img src="images/bulb 4.jpg" alt="Image 3">
+    <img src="images/Collage 1.png" alt="Image 3">
+    <img src="images/Collage 3.png" alt="Image 3">
+    <img src="images/Collage 6.png" alt="Image 3">
+    <img src="images/DSC00107.JPG" alt="Image 3">
+    <img src="images/Fabric CollagesArtboard 4.jpg" alt="Image 3">
+    <img src="images/final image.jpg" alt="Image 3">
+    <img src="images/ice structures-6.png" alt="Image 3">
+    <img src="images/snowflake 5.jpg" alt="Image 3">
+    <!-- Add more images here -->
+  </div>
+
+  /* Image Grid */
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 10px;
+      }
+      
+      .image-grid img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: none;
+      }

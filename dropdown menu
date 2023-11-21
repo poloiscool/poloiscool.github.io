@@ -1,0 +1,91 @@
+<!--
+    <ul>
+    <li class="dropdown">
+      <a href="featured.html" class='dropbtn'>Featured</a>
+      <div class="dropdown-content">
+        <a href="tree-orb">Tree Orb</a>
+        <a href="camo-collection">Camo Collection</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="architecture-all.html" class="dropbtn">Architecture</a>
+      <div class="dropdown-content">
+        <a href="architecture-all.html">All</a>
+        <a href="ba-portfolio">BA Portfolio</a>
+        <a href="models">Models</a>
+        <a href="digital">Digital</a>
+        <a href="drawings">Drawings</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="artwork-all.html" class='dropbtn'>Artwork</a>
+      <div class="dropdown-content">
+        <a href="physical-art">Physical</a>
+        <a href="digital-art">Digital</a>
+      </div>
+    </li>
+    <li><a href="about-cv">About+CV</a></li>
+  </ul>
+
+
+  
+CSS
+
+
+  /* Menu styles */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(40, 40, 40);
+      overflow: hidden;
+      z-index:0;
+    }
+
+    li {
+      float: left;
+      z-index:0;
+    }
+
+    li a {
+      display: block;
+      color: rgb(240, 240, 240);
+      text-align: justify;
+      padding: 2px 175px;
+      text-decoration-style: solid;
+      font-weight: 100;
+      z-index:0;
+    }
+
+    li a:hover {
+      background-color:rgb(40, 40, 40);
+      z-index:0;
+    }
+
+    /* Dropdown styles */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(40, 40, 40);
+      z-index:auto;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      z-index:0;
+    }
+
+    .dropdown-content a {
+      color: rgb(240, 240, 240);
+      padding: 2px 175px;
+      text-decoration-style: dotted;
+      text-underline-offset: 3px;
+      display: block;
+      text-align: left;
+      z-index:0;
+    }
+
+    .dropdown-content a:hover {
+      background-color: rgb(40, 40, 40);
+      z-index:0;
+    }
